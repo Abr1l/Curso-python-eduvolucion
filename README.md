@@ -1,1 +1,1 @@
-Curso de pythion que realizo en la plataforma eduvolucion.com
+Curso de python que realizo en la plataforma eduvolucion.com
