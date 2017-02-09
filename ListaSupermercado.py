@@ -13,8 +13,6 @@
 #4 | Imprimir una parte de lista
 #5 | Salir
 #•
-#•
-#•
 #Crearán una variable que almacenará la opción a elegir del menú: opción.
 #El flujo de ejecución de la aplicación debe estar en un ciclo while.
 #Para controlar la condición del ciclo, utilizarán una variable bandera: menu.
