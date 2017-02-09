@@ -48,20 +48,20 @@ while menu == False:
 		i = 0
 		for articulo in supermercado:
 			print(str(i) + "\t" + articulo)
-			++i
+			i=  i + 1
 	
 	elif (opcion == 2):
-		articulo = input("\n¿Qué artículo desea agregar?: ")
+		articulo = raw_input("\n¿Qué artículo desea agregar?: ")
 		supermercado.append(articulo)
 	
 	elif (opcion == 3):
-		articulo = input("¿Qué artículo desea eliminar?")
-		del (supermercado[articulo])
+		indice_art = int(input("\n¿Qué artículo desea eliminar? (ingrese el número): "))
+		del (supermercado[indice_art])
 	
 	elif (opcion == 4):
-		fin = int(input("Ingrese un número, artículo final: "))
+		fin = int(input("\nArtículo final, ingrese un número: "))
 		for articulo in range(fin):
-			print("supermercado[articulo]")
+			print(supermercado[articulo])
 	
 	elif (opcion == 5):
 		print("\n ¡Hasta Luego, gracias por su compra!")
