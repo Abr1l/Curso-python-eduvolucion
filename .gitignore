@@ -1,0 +1,2 @@
+# Ignora todo lo que se encuentre dentro de la carpeta PDF
+PDF/**/*
