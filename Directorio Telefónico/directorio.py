@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+
 #Directorio Telefónico
 #En este proyecto estarán creando un programa que simulará un directorio telefónico.
 #El programa debe cumplir con los siguientes objetivos:
@@ -27,7 +30,7 @@ def mostrar_menu():
 	print("6- Salir ")
 	
 
-def imprimirDirectorio():
+def mostrarDirectorio():
 	print("Números telefónico ")
 	for x in directorio.keys():
 		print("Nombre: " + x + "\tNúmero: " + directorio[x])
@@ -62,6 +65,4 @@ def guardarArchivo():
 	
 	for (clave, valor) in directorio.items(): # items, Obtener las claves y valores de un diccionario
 		archivocsv.writerow([clave,valor]) 
-	
-	
-	
+

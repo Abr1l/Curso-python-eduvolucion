@@ -27,7 +27,7 @@ def mostrar_menu():
 	print("6- Salir ")
 	
 
-def imprimirDirectorio():
+def mostrarDirectorio():
 	print("Números telefónico ")
 	for x in directorio.keys():
 		print("Nombre: " + x + "\tNúmero: " + directorio[x])
@@ -61,7 +61,5 @@ def guardarArchivo():
 		archivocsv = csv.writer(open("directorio.csv" "wb")) #abre con permiso de escritura, si no existe, lo crea.
 	
 	for (clave, valor) in directorio.items(): # items, Obtener las claves y valores de un diccionario
-		archivocsv.writerow([clave,valor]) #
-	
-	
-	
+		archivocsv.writerow([clave,valor]) 
+
