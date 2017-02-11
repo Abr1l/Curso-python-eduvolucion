@@ -16,8 +16,8 @@
 import directorio
 
 opcion = 0
-while opcion == 6:
-	mostrar_menu()
+while opcion != 6:
+	directorio.mostrar_menu()
 	opcion = int(input("Introduzca la opción:"))
 	if opcion == 1:
 		directorio.mostrarDirectorio()
